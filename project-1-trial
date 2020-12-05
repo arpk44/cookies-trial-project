@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Project</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function SetCookie()
+		{
+			document.cookie = "userid=9238492374"
+		}
+
+		function GetCookie(){
+			console.log(document.cookie);
+		}
+	</script>
+</body>
+
+<h2 onclick="SetCookie();">Click here FOR FREE COOKIES</h2>	
+
+<h2 onclick="GetCookie();">Product Information</h2>
+</html>
